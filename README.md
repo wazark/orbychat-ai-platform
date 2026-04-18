@@ -38,6 +38,7 @@ This allows:
 
 ## 🧠 System Flow
 
+```text
 User
  ↓
 Authentication Layer
@@ -51,7 +52,7 @@ Database (PostgreSQL)
 AI Processing (OpenAI)
  ↓
 Response
-
+```
 ---
 
 ## 🚀 Key Features
