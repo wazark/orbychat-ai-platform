@@ -118,14 +118,16 @@ Security is treated as a core system requirement:
 ```text
 orbychat-platform/
 ├── docs/
-│   ├── OVERVIEW.md
 │   ├── ARCHITECTURE.md
+│   ├── DATABASE.md
+│   ├── FEATURES.md
 │   ├── FEATURES.md
 │   ├── ROADMAP.md
 │   └── SECURITY.md
-├── screenshots/
-├── backend/
-└── app/
+└── screenshots/
+    ├── login.jpeg
+    ├── home.jpeg
+    ├── chat.jpeg  
 ```
 
 ---
