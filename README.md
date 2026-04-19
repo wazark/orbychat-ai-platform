@@ -70,32 +70,32 @@ Response
 
 ### 📁 Projects & Threads
 <p align="center">
-  <img src="screenshots/04_threads.png" width="700"/>
+  <img src="screenshots/03_projects.png" width="700"/>
 </p>
 
 ### 💬 Chat Experience
 <p align="center">
-  <img src="screenshots/05_chat.png" width="700"/>
+  <img src="screenshots/04_chat.png" width="700"/>
 </p>
 
 ### 👤 Profile Management
 <p align="center">
-  <img src="screenshots/06_profile.png" width="700"/>
+  <img src="screenshots/05_profile.png" width="700"/>
 </p>
 
 ### 🏆 Gamification System
 <p align="center">
-  <img src="screenshots/07_gamification.png" width="700"/>
+  <img src="screenshots/06_gamification.png" width="700"/>
 </p>
 
 ### 🤖 AI Personalization
 <p align="center">
-  <img src="screenshots/08_ai_settings.png" width="700"/>
+  <img src="screenshots/07_ai_settings.png" width="700"/>
 </p>
 
 ### 💳 Pricing Plans
 <p align="center">
-  <img src="screenshots/09_pricing.png" width="700"/>
+  <img src="screenshots/08_pricing.png" width="700"/>
 </p>
 
 ---
