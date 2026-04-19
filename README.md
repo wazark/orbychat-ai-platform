@@ -25,7 +25,7 @@ The goal is to simulate a **real-world SaaS platform**, not just a simple chat a
 
 The system is built around structured communication flow:
 
-User → Project → Thread → Messages → AI Response
+User → Project → Thread → Messages → AI Processing → Response
 
 This allows:
 
@@ -53,6 +53,51 @@ AI Processing (OpenAI)
  ↓
 Response
 ```
+
+---
+
+## 📱 App Preview
+
+### 🔐 Login
+<p align="center">
+  <img src="screenshots/01_login.png" width="700"/>
+</p>
+
+### 🏠 Dashboard
+<p align="center">
+  <img src="screenshots/02_dashboard.png" width="700"/>
+</p>
+
+### 📁 Projects & Threads
+<p align="center">
+  <img src="screenshots/04_threads.png" width="700"/>
+</p>
+
+### 💬 Chat Experience
+<p align="center">
+  <img src="screenshots/05_chat.png" width="700"/>
+</p>
+
+### 👤 Profile Management
+<p align="center">
+  <img src="screenshots/06_profile.png" width="700"/>
+</p>
+
+### 🏆 Gamification System
+<p align="center">
+  <img src="screenshots/07_gamification.png" width="700"/>
+</p>
+
+### 🤖 AI Personalization
+<p align="center">
+  <img src="screenshots/08_ai_settings.png" width="700"/>
+</p>
+
+### 💳 Pricing Plans
+<p align="center">
+  <img src="screenshots/09_pricing.png" width="700"/>
+</p>
+
 ---
 
 ## 🚀 Key Features
@@ -105,11 +150,13 @@ Security is treated as a core system requirement:
 ## 🧪 Technical Highlights
 
 - Designed as a **real-world SaaS architecture**
-- Focus on scalability and modular design
-- Separation of concerns (API, logic, data)
-- Serverless backend strategy
-- AI integration with contextual awareness
-- Structured session and authentication system
+- Serverless backend using **Cloudflare Workers**
+- PostgreSQL relational model (User → Project → Thread → Message)
+- Token-based authentication with session management
+- AI integration with contextual conversation history
+- Multi-tenant architecture with project isolation
+- Gamification system with XP tracking and achievements
+- Scalable API structure ready for production environments
 
 ---
 
@@ -123,10 +170,15 @@ orbychat-platform/
 │   ├── FEATURES.md
 │   ├── ROADMAP.md
 │   └── SECURITY.md
-└── screenshots/
-    ├── login.jpeg
-    ├── home.jpeg
-    ├── chat.jpeg  
+└──screenshots/
+    ├── 01_login.png
+    ├── 02_dashboard.png
+    ├── 04_threads.png
+    ├── 05_chat.png
+    ├── 06_profile.png
+    ├── 07_gamification.png
+    ├── 08_ai_settings.png
+    └── 09_pricing.png 
 ```
 
 ---
