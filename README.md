@@ -121,7 +121,6 @@ orbychat-platform/
 │   ├── ARCHITECTURE.md
 │   ├── DATABASE.md
 │   ├── FEATURES.md
-│   ├── FEATURES.md
 │   ├── ROADMAP.md
 │   └── SECURITY.md
 └── screenshots/
